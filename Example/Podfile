@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FireAuth_Tests' do
+  pod 'FireAuth', :path => '../'
+  
+  
+end
