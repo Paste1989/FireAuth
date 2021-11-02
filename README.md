@@ -27,3 +27,13 @@ Sasa89, sasa.brezovac@cobeisfresh.com
 ## License
 
 FireAuth is available under the MIT license. See the LICENSE file for more info.
+
+## Structure, methods
+Firebase.../"users"
+firstName: String
+lastName: String
+email: String
+password: String
+
+AppDelegate: configure()
+

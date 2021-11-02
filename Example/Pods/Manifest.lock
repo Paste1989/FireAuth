@@ -1,0 +1,16 @@
+PODS:
+  - FireAuth (0.1.0)
+
+DEPENDENCIES:
+  - FireAuth (from `../`)
+
+EXTERNAL SOURCES:
+  FireAuth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FireAuth: a23a072bd8db96c52b18dbf11cfaea497cc06b14
+
+PODFILE CHECKSUM: 395b229202a9896a20a447d0c9622e4e3365a796
+
+COCOAPODS: 1.11.2

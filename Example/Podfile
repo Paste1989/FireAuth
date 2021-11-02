@@ -1,6 +1,6 @@
 use_frameworks!
 target 'FireAuth_Tests' do
-  pod 'FireAuth', :path => '../'
+  pod 'FireAuth', :path => 'https://github.com/Sasa89/FireAuth'
   
   
 end

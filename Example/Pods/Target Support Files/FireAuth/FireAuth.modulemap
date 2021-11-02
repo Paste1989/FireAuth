@@ -1,0 +1,6 @@
+framework module FireAuth {
+  umbrella header "FireAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
