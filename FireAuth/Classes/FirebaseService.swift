@@ -25,7 +25,7 @@ public class FirebaseService: FirebaseServiceProtocol {
     var onSuccess: (() -> Void)?
     var onError: ((String) -> Void)?
     
-    func configure() {
+    fileprivate func configure() {
         FirebaseApp.configure()
     }
     
