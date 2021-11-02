@@ -15,7 +15,7 @@ private enum ServiceResult<Value> {
 }
 
 private protocol FirebaseServiceProtocol {
-    func configure()
+    func configureFirebase()
     func createUser(firstName: String, lastName: String, email: String, password: String, completion: @escaping (ServiceResult<Any>) -> Void)
     func login(email: String, password: String, completion: @escaping (ServiceResult<Any>) -> Void)
     func getData(completion: @escaping (ServiceResult<Any>) -> Void)
@@ -25,7 +25,7 @@ public class FirebaseService: FirebaseServiceProtocol {
     var onSuccess: (() -> Void)?
     var onError: ((String) -> Void)?
     
-    fileprivate func configure() {
+    func configureFirebase() {
         FirebaseApp.configure()
     }
     
