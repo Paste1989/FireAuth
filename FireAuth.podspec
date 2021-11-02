@@ -18,9 +18,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'A short description of FireAuth. Description. This is a test version of this Pod. Thank you.'
-TODO: Add long description of the pod here.
-                       DESC
-
   s.homepage         = 'https://github.com/Paste1989/FireAuth'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
